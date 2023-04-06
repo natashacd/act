@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  #landing{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.397), rgba(255, 255, 255, 0.377)),
+     url(../img/landing-img.jpg) ;
+    height: 100vh;	
+    width: 100%;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    text-shadow: 2px 2px #0c0c0c;
+  }
+  #landing p:last-child{
+    font-size: 30px;
+    text-shadow: 2px 2px #0c0c0c;
+  }
+  
+  img{
+    height: 250px;
+    width: 380px;
+    border-radius: 10px;
+  }
+  
+  #blog{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    margin-top: 250px;
+  }
+     div:hover  {
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    border: 1px solid black;
+    transition: .5s ease;
+    cursor: pointer;
+  }
+  #blog h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: -80px;
+    position: absolute;
+  
+  }
+  
+  a{
+    text-decoration: none;
+    color: gray;
+  }
+  div{
+    border-radius: 10px;
+    box-shadow: 0px 0px  10px rgba(0,0,0,0.2);
+     border: 1px solid rgba(128, 128, 128, 0.452); 
+    background-color: whitesmoke;
+    width: 380px;
+    margin: 10px;
+    height: 460px;
+  }
+  
+  
+  h3 {
+    padding: 20px 20px;
+    font-size: 30px;
+  }
+   p:first-of-type,a{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  #services{
+          background-color: whitesmoke;
+          height: 50vh;
+          margin-top: 150px;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+  }
+  #services h2{
+          position: absolute;
+          margin-top: -100px;
+          margin-bottom: 50px;
+          font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px;
+  }
+  ul, li{
+          display: flex;
+          margin: 25px;	
+      margin-top: 80px;
+  }
+  li{
+          background-color: white;
+          height: 120px;
+          width: 260px;
+          align-items: center;
+          justify-content: center;
+          font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: 21px;
+  }
+  li:hover{
+          background-color: rgba(255, 90, 14, 0.945);
+          transition: .3s ease;
+  } 
+  
+  
